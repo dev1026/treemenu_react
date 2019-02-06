@@ -123,13 +123,13 @@ var App = React.createClass({displayName: "App",
     return React.createElement("div", {className: "container"}, 
 
       React.createElement("div", {className: "row"}, 
-        React.createElement("div", {className: "col-lg-12 hero"}, 
+        React.createElement("div", {className: "col-lg-12 treemenu"}, 
           React.createElement("h1", null, React.createElement("code", null, "<TreeMenu/>"))
         )
       ), 
 
       React.createElement("div", {className: "row"}, 
-        React.createElement("div", {className: "col-lg-12 hero"}, 
+        React.createElement("div", {className: "col-lg-12 treemenu"}, 
           React.createElement("h3", null, "Check out the code for this demo ", React.createElement("a", {href: "https://github.com/MandarinConLaBarba/react-tree-menu/blob/master/example/App.jsx"}, "here"), ".")
         )
       ), 

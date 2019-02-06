@@ -122,13 +122,13 @@ var App = React.createClass({
     return <div className="container">
 
       <div className="row">
-        <div className="col-lg-12 hero">
+        <div className="col-lg-12 treemenu">
           <h1><code>{"<TreeMenu/>"}</code></h1>
         </div>
       </div>
 
       <div className="row">
-        <div className="col-lg-12 hero">
+        <div className="col-lg-12 treemenu">
           <h3>Check out the code for this demo <a href="https://github.com/MandarinConLaBarba/react-tree-menu/blob/master/example/App.jsx">here</a>.</h3>
         </div>
       </div>
