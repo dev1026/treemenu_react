@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/MandarinConLaBarba/react-tree-menu"
+    "url": "git://github.com/mathwang9016/treemenu_react"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
