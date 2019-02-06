@@ -7,18 +7,18 @@
     background-color: #dff0d8;
 }
 
-.last-action {
+.lastaction {
     position: relative;
 }
 
-.last-action-enter {
+.lastaction-enter {
     position: relative;
     top: -30px;
     opacity: 0.01;
     transition: all .1s ease-in;
 }
 
-.last-action-enter.last-action-enter-active {
+.lastaction-enter.lastaction-enter-active {
     position: relative;
     top: 0;
     opacity: 1;

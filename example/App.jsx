@@ -189,26 +189,26 @@ var App = React.createClass({
         <div className="col-lg-3">
           <CSSTransitionGroup
             transitionEnterTimeout={500}
-            transitionName="last-action" transitionLeave={false}>
+            transitionName="lastaction" transitionLeave={false}>
             {this._getLastActionNode("1")}
           </CSSTransitionGroup>
         </div>
 
         <div className="col-lg-3">
-          <CSSTransitionGroup transitionEnterTimeout={500} transitionName="last-action" transitionLeave={false}>
+          <CSSTransitionGroup transitionEnterTimeout={500} transitionName="lastaction" transitionLeave={false}>
             {this._getLastActionNode("2")}
           </CSSTransitionGroup>
 
         </div>
 
         <div className="col-lg-3">
-          <CSSTransitionGroup transitionEnterTimeout={500} transitionName="last-action" transitionLeave={false}>
+          <CSSTransitionGroup transitionEnterTimeout={500} transitionName="lastaction" transitionLeave={false}>
             {this._getLastActionNode("3")}
           </CSSTransitionGroup>
         </div>
 
         <div className="col-lg-3">
-          <CSSTransitionGroup transitionEnterTimeout={500} transitionName="last-action" transitionLeave={false}>
+          <CSSTransitionGroup transitionEnterTimeout={500} transitionName="lastaction" transitionLeave={false}>
             {this._getLastActionNode("4")}
           </CSSTransitionGroup>
         </div>
@@ -265,12 +265,12 @@ var App = React.createClass({
 
       <div className="row">
         <div className="col-lg-3">
-          <CSSTransitionGroup transitionEnterTimeout={500} transitionName="last-action" transitionLeave={false}>
+          <CSSTransitionGroup transitionEnterTimeout={500} transitionName="lastaction" transitionLeave={false}>
             {this._getLastActionNode("5")}
           </CSSTransitionGroup>
         </div>
         <div className="col-lg-3">
-          <CSSTransitionGroup transitionEnterTimeout={500} transitionName="last-action" transitionLeave={false}>
+          <CSSTransitionGroup transitionEnterTimeout={500} transitionName="lastaction" transitionLeave={false}>
             {this._getLastActionNode("6")}
           </CSSTransitionGroup>
         </div>

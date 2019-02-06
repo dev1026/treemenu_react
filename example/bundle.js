@@ -190,26 +190,26 @@ var App = React.createClass({displayName: "App",
         React.createElement("div", {className: "col-lg-3"}, 
           React.createElement(CSSTransitionGroup, {
             transitionEnterTimeout: 500, 
-            transitionName: "last-action", transitionLeave: false}, 
+            transitionName: "lastaction", transitionLeave: false}, 
             this._getLastActionNode("1")
           )
         ), 
 
         React.createElement("div", {className: "col-lg-3"}, 
-          React.createElement(CSSTransitionGroup, {transitionEnterTimeout: 500, transitionName: "last-action", transitionLeave: false}, 
+          React.createElement(CSSTransitionGroup, {transitionEnterTimeout: 500, transitionName: "lastaction", transitionLeave: false}, 
             this._getLastActionNode("2")
           )
 
         ), 
 
         React.createElement("div", {className: "col-lg-3"}, 
-          React.createElement(CSSTransitionGroup, {transitionEnterTimeout: 500, transitionName: "last-action", transitionLeave: false}, 
+          React.createElement(CSSTransitionGroup, {transitionEnterTimeout: 500, transitionName: "lastaction", transitionLeave: false}, 
             this._getLastActionNode("3")
           )
         ), 
 
         React.createElement("div", {className: "col-lg-3"}, 
-          React.createElement(CSSTransitionGroup, {transitionEnterTimeout: 500, transitionName: "last-action", transitionLeave: false}, 
+          React.createElement(CSSTransitionGroup, {transitionEnterTimeout: 500, transitionName: "lastaction", transitionLeave: false}, 
             this._getLastActionNode("4")
           )
         )
@@ -264,12 +264,12 @@ var App = React.createClass({displayName: "App",
 
       React.createElement("div", {className: "row"}, 
         React.createElement("div", {className: "col-lg-3"}, 
-          React.createElement(CSSTransitionGroup, {transitionEnterTimeout: 500, transitionName: "last-action", transitionLeave: false}, 
+          React.createElement(CSSTransitionGroup, {transitionEnterTimeout: 500, transitionName: "lastaction", transitionLeave: false}, 
             this._getLastActionNode("5")
           )
         ), 
         React.createElement("div", {className: "col-lg-3"}, 
-          React.createElement(CSSTransitionGroup, {transitionEnterTimeout: 500, transitionName: "last-action", transitionLeave: false}, 
+          React.createElement(CSSTransitionGroup, {transitionEnterTimeout: 500, transitionName: "lastaction", transitionLeave: false}, 
             this._getLastActionNode("6")
           )
         )
